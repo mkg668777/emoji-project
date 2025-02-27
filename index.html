@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Emojee - Emoji 🔍 Application</h1>
+
+        <div class="buttons">
+            <button onclick="filterEmojis('all')">All</button>
+            <button onclick="filterEmojis('face')">Face</button>
+            <button onclick="filterEmojis('heart')">Heart</button>
+            <button onclick="filterEmojis('hand')">Hand</button>
+            <button onclick="filterEmojis('food')">Food</button>
+            <button onclick="filterEmojis('sports')">Sports</button>
+            <button onclick="filterEmojis('animal')">Animal</button>
+            <button onclick="filterEmojis('flag')">Flag</button>
+        </div>
+
+        <input type="text" id="searchBox" placeholder="🔍 Search Emoji..." onkeyup="searchEmoji()">
+
+        <div class="emoji-grid" id="emojiGrid">
+            <!-- JavaScript से इमोजी लोड होंगे -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
