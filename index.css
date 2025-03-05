@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+}
+.fullpage{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    background-color: #ffdfbb;
+    overflow-x:hidden;
+}
+#heading{
+    width:95%;
+    height:auto;
+    font-family:sans-serif;
+    text-align: center;
+    margin-top:20px;
+    font-size:3rem;
+    
+}
+form{
+   
+    gap:0.5rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+form .buttons{
+    width:55px;
+    height:30px;
+    border-radius: 4px;
+    color:black;
+     background-color: #fdbb8f;
+     border:none;
+    font-weight: bold;
+    font-size: 0.875em;
+}
+
+form .btn-all{
+    width:35px;
+    height:30px;
+    border-radius: 8px;
+    color:black;
+     background-color: #fdbb8f;
+     border:none;
+    font-weight: bold;
+    font-size: 1em;    
+}
+form button:hover{
+    background-color: #ffa57b;
+    cursor: pointer;
+}
+form input{
+    width:220px;
+    height:40px;
+    border-radius: 20px;
+    padding-left:40px;
+    border:none;
+    background-image: url("magnifying-glass.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    font-size: 15px;
+    margin-left: 8px;
+ 
+}
+.emojisContainer{
+    width: 90%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:0.8rem;
+}
+.parent{
+    margin-bottom:20px;
+    width:60px;
+    height:60px;   
+    font-size:3rem;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.icon{
+    cursor: pointer;
+}
